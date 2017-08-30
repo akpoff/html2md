@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+	"sprintf-js": "0.x",
+	"upndown": "2.x"
+    }
+}
+
