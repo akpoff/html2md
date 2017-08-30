@@ -1,0 +1,7 @@
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+.\#*
+
+package-lock.json
+README.html
