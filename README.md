@@ -32,7 +32,7 @@ To get the URL for the webtask:
 	make list
 ```
 
-To run in a browser, get the url from make list and add the `url`
+To run in a browser, get the url from `make list` and add the `url`
 query parameter:
 
 ```
