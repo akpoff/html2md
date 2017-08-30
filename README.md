@@ -1,6 +1,6 @@
 # html2md
 
-*html2md* is a simple webtask to convert a web page to markdown.
+*html2md* is a simple Webtask.io to convert a web page to markdown.
 
 ## Use
 Create the webtask using the included Makefile:
@@ -38,8 +38,8 @@ query parameter:
 ```
 
 ## Notes
-*html2md* only converts static elements of html. Dynamic content is not
-processed.
+*html2md* only converts static elements of html. Dynamic content is
+not processed.
 
 ## TODO
 + Unit tests

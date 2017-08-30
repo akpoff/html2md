@@ -17,7 +17,7 @@
 /*
  * html2md.js
  *
- * A simple webtask to convert a web page to markdown.
+ * A simple Webtask.io to convert a web page to markdown.
  *
  * Notes: Only converts static elements of html.
  *        Dynamic content is not processed.
