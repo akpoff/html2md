@@ -36,7 +36,7 @@ To run in a browser, get the url from make list and add the `url`
 query parameter:
 
 ```
-	https://webtask?url=http://github.com
+	https://<webtask>?url=http://github.com
 ```
 
 ## Notes
