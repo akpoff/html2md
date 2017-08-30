@@ -2,7 +2,7 @@
 
 *html2md* is a simple Webtask.io to convert a web page to markdown.
 
-See http://webtask.io for information about Webtasks.
+See https://webtask.io for information about Webtasks.
 
 ## Use
 Create the webtask using the included Makefile:
