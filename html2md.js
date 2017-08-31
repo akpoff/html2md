@@ -53,7 +53,7 @@ module.exports = function(ctx, req, res) {
 
     if (qry_url) {
 	// Can't catch timeout errors
-	// fetch does not have a timeout option, blech!
+	// fetch has a timeout option, but seemingly does nothing.
 	fetch(qry_url)
 	    .then(function(response) {
 		if (response.status >= 400) {
