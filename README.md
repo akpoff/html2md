@@ -43,7 +43,13 @@ query parameter:
 *html2md* only converts static elements of html. Dynamic content is
 not processed.
 
+## Known Issues
+[https://github.com/matthew-andrews/isomorphic-fetch](isomorphic-fetch) does
+not have a `timeout` option. The Webtask will often timeout *before*
+the fetch request.
+
 ## TODO
 + Unit tests
 + Process dynamic content
 + Replace Makefile with gulpfile.js
++ Find a solution to set timeouts
