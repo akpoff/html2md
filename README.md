@@ -45,8 +45,10 @@ not processed.
 
 ## Known Issues
 [isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) `timeout`
-option does not seem to work. The Webtask will often timeout *before*
-the fetch request to a bad url or missing server.
+option does not seem to work.
+
+Even when set to 500ms, the code runs for 3000+ms. The Webtask
+eventually times out *before* the fetch request times out.
 
 ## TODO
 + Unit tests
