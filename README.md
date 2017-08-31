@@ -44,7 +44,7 @@ query parameter:
 not processed.
 
 ## Known Issues
-[https://github.com/matthew-andrews/isomorphic-fetch](isomorphic-fetch) does
+[isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch) does
 not have a `timeout` option. The Webtask will often timeout *before*
 the fetch request.
 
